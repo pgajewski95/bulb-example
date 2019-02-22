@@ -19,8 +19,8 @@ public class Main {
 
             System.out.println(philips.description());
             System.out.println(osram.bustPower().description());
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception error) {
+            error.printStackTrace();
         }
 
         try {
